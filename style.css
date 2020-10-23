@@ -3,13 +3,17 @@
     margin: 0px;
 }
 
+body {
+    background-color: black;
+}
+
 li {
     list-style-type: none;
     color: white;
     padding: 1rem;
 }
 
-ul {
+.navBar {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -23,6 +27,7 @@ nav {
     background-color: rgb(54, 54, 54);
     position: fixed;
     transition: 1s;
+    flex-direction: column;
 }
 
 .menuOut {
@@ -31,4 +36,23 @@ nav {
 
 .flex {
     cursor: pointer;
+}
+
+.dropDownMenu {
+    overflow: hidden; 
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.dropDownList {
+    font-size: 2rem;
+   
+}
+
+.linksOut {
+    visibility: visible;
+    transition: 10s;
 }
