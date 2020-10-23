@@ -6,8 +6,6 @@
 li {
     list-style-type: none;
     color: white;
-    display: flex;
-    align-items: center;
     padding: 1rem;
 }
 
@@ -15,7 +13,7 @@ ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: ;
 }
 
 nav {
@@ -24,11 +22,13 @@ nav {
     width: 100%;
     background-color: rgb(54, 54, 54);
     position: fixed;
+    transition: 1s;
 }
 
-.flexone {
-  display: flex;
-  align-items: center;
+.menuOut {
+    height: 100vh;
 }
-.flextwo {
-   
+
+.flex {
+    cursor: pointer;
+}
